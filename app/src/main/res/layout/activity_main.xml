@@ -5,23 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/back"
     tools:context=".MainActivity" >
 
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
-        android:layout_height="173dp"
+        android:layout_height="137dp"
         android:gravity="center"
-        android:text="hello"
-        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imagev"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/heads"
-        />
+        android:layout_height="244dp"
+        app:srcCompat="@drawable/heads" />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,8 +29,11 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="242dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
         android:text="TOSS"
         android:textSize="24sp" />
 </LinearLayout>

@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         text.setText(outs);
                     }
-                }, 3000);
+                }, 1800);
 
             }
         });
