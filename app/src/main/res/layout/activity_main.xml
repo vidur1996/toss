@@ -25,15 +25,30 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="108dp" />
+        android:layout_height="69dp" />
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="242dp"
-        android:layout_height="131dp"
+        android:layout_height="104dp"
         android:layout_gravity="center_horizontal"
         android:background="@android:color/holo_blue_light"
         android:gravity="center"
         android:text="TOSS"
         android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8070039270535841/7642750095">
+
+    </com.google.android.gms.ads.AdView>
 </LinearLayout>
